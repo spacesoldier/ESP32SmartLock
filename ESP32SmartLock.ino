@@ -23,7 +23,7 @@ void setup() {
 
 void loop() {
 
-	checkCommand(millis, open_lock, do_nothing);
+	checkCommand(millis(), open_lock, do_nothing);
 	readCards(millis(), open_lock, do_nothing);
 	checkLockerState(millis(), do_nothing, do_nothing);
 

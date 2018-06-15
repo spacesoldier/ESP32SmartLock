@@ -47,5 +47,5 @@ void checkLockerState(unsigned long curr_time, void open_callback(), void close_
 }
 
 void open_lock(){
-	lock_state = LOCK_OPEN;
+	lock_state = LOCK_OPENED;
 }
